@@ -19,3 +19,5 @@ row of our precomputed array. So the C1 block will be:
           1 0 0 1 1 0
      C1 = 1 0 1 1 1 1 
           0 0 1 0 0 1
+
+Here i have to underline that such implementation would make sense in dense matrices.
