@@ -4,7 +4,7 @@ Boolean matrix multiplication accelerated by the four-Russians algorithm.
 Boolean matrix multiplication has a default complexity of O(n^3), so using the Four-Russians-Algorithm
 and multiplying by blocks of size t, we are able to drop the complexity to O(n^3/t). The idea is that
 if we multiply Aik*Bkj the Cij will be a combination of some rows of B. These rows are indicated by the
-relevant subrow of A. For example lets say that we multiply the blocks:
+corresponding subrow of A. For example lets say that we multiply the blocks:
 
           1 0  
      A1 = 1 1    and    B1 = 1 0 0 1 1 0
